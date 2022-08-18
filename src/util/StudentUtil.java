@@ -90,7 +90,7 @@ public class StudentUtil {
     public static void uptadeStudentSameObject(){
         StudentUtil.printAllRegisteredStudents();
         int i=InputUtil.requireNumber("Necenci adami deyisiklik etmek isteyirsiniz?");
-        System.out.println("Yeni melumatlari daxil edin");
+        System.out.println("Yeni melumatlari daxil edin ");
         Student selected=Config.students[i-1];
         String changeParams=InputUtil.requireText("Neleri deyisdirmek isteyirsiniz? mes: 'name,'surname''");
         if (changeParams.contains("'name'"))
